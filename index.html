@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Italian Artwork</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Italian Art Display</h1>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/bust_of_sulla.jpg" alt="678">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/interior_of_st_marks.jpg" alt="9">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/saint_john.jpg" alt="68">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/souvenir.jpg" alt="43129">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/the_abduction.jpg" alt="154503">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/the_fountain.jpg" alt="69780">
+            </figure>
+            <figure class="gallery__item gallery__item--7" id="fig7" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/view_along_coast.jpg" alt="102941">
+            </figure>
+            <figure class="gallery__item gallery__item--8" id="fig8" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery__img" src="images/villa_rotonda.jpg" alt="242968">
+            </figure>
+           
+        </div>
+        <div>
+            <p id="showinfo"></p>
+        </div>
+    </div>
+</body>
+</html>
